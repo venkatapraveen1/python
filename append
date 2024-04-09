@@ -1,0 +1,25 @@
+import array
+list=[1,2,3,4,5]
+a=array.array('i',[])
+a.fromlist(list)
+print("array:",a)
+a.append(7)
+print(a)
+a.insert(2,8)
+print("after inserting:",a)
+a.pop(4)
+print("after pop:",a)
+print("index:",a.index(3))
+a.reverse()
+print("reverse:",a)
+print(a.count(a))
+
+
+-output:
+= RESTART: C:\Users\chara\AppData\Local\Programs\Python\Python312\python 3.py
+array: array('i', [1, 2, 3, 4, 5])
+array('i', [1, 2, 3, 4, 5, 7])
+after inserting: array('i', [1, 2, 8, 3, 4, 5, 7])
+after pop: array('i', [1, 2, 8, 3, 5, 7])
+index: 3
+reverse: array('i', [7, 5, 3, 8, 2, 1])
