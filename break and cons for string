@@ -1,0 +1,16 @@
+my_string = "Hello World"
+for char in my_string:
+    if char == 'o':
+        break
+    print(char)
+
+output:-H
+e
+l
+l
+
+my_string = "Hello World"
+for char in my_string:
+    if char == 'o':
+        continue
+    print(char)-------
