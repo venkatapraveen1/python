@@ -1,0 +1,26 @@
+a="happy Birthday python"
+print(a.isupper())
+print(a.islower())
+print(a.isalpha())
+print(a.istitle())
+print(a.isspace())
+print(a.startswith("s"))
+print(a.endswith("s"))
+print(a.find("python"))
+print(len(a))
+print(min(a))
+print(max(a))
+
+
+output:
+False
+False
+False
+False
+False
+False
+False
+15
+21
+
+y
