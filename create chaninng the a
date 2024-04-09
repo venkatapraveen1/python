@@ -1,0 +1,22 @@
+a="happy Birthday python"
+print(a.capitalize())
+print(a.upper())
+print(a.lower())
+print(a.swapcase())
+print(a.split())
+print(a.center(19,"&"))
+print(a.count('Birthday'))
+print(a.replace('python','c++'))
+print(a.join("---"))
+
+
+output:
+Happy birthday python
+HAPPY BIRTHDAY PYTHON
+happy birthday python
+HAPPY bIRTHDAY PYTHON
+['happy', 'Birthday', 'python']
+happy Birthday python
+1
+happy Birthday c++
+-happy Birthday python-happy Birthday python
